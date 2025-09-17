@@ -1,1 +1,60 @@
+Bölüm 1 - Temel Giriş Konuları
+print() fonksiyonun görevini açıklayınız.= Yazdırma komutudur.
 
+Kendizi tanıtan bir python programı yazınız. (En az 5 satır çıktı vermelidir)=
+name= input("isminizi giriniz:")
+surname= input("soyisminizi giriniz:")
+age= input("yaşınızı giriniz:")
+school= input("hangi okulda okudunuz ya da hangi okuldan mezunsunuz:")
+job= input("yaptığınız meslek hakkında birkaç bilgi veriniz:")
+print(f"{name} \n{surname} \n{age} \n{school} \n{job}")
+
+Yorum satırlar (Comment Line) nedir? hangi amaçlarla kullanılır? Kaç farklı şekilde yorum satırı yazılabilir örneklerle açıklayınız
+yanlarına bilgi yazmak ve komutların ne anlama geldiğini hemen yanına bilgisini yazmak için kullanılır "#"
+
+yorum satılarının ne olduğu konusunda çıktı veren ve yorum satırı barındıran bir program yazınız.
+print("Yasin") #print komudu yazıdırıcıdır.
+print(sum(3+5)) #sum komudu toplama komutudur.
+
+Pythonda kullanılan temel veri tipleri nelerdir ? ilkel veri tipi olarakta adlandırılan bu veri tiplerini yorum satırları içeren bir programla örnek içerecek şekilde yazınız.
+str     }
+int     } veri tipleridir
+boolean }
+Example: # örnek:
+X= "17"       }
+print(X)      } bütün olarak alınız.
+print(int(X)) }
+
+type() fonksiyonunun görevini açıklayınız. type() fonksiyonu içerecek şekilde bir örnek yazınız.
+type("17")
+type("Yasin")
+type(17) #bu üç komut  sırasıyla str,str,int demektedir ve bu komutların ne tip veri tipi olduğunu bize söylemektedir.
+
+Değişken nedir? Hangi amaçla kullanılır? Değişken tanımlarken dikkat edilmesi gereken unsurları belirtiniz.
+değişken genel anlamda atama da diyebiliriz örneğin:
+değişken tanımlarken kesinlikle str ise tırnak içinde yazınız
+
+X= 17
+Y="Yasin"
+print(Y , X)
+
+Farklı veri tiplerine sahip değişkenler tanımlayarak bir program yazınız.
+Name="Yasin"
+Surname="Güner"
+Age=17
+Job= "Student"
+print(Name,Surname,Age,Job) #eğer ki alt alta olmasını istersek \n komudunu da kullanabiliriz.
+
+Kendinizi tanıtan farklı veri tiplerine sahip verilerden oluşacak şekilde bir program yazınız.
+name= input("isminizi giriniz:")
+surname= input("soyisminizi giriniz:")
+age= input("yaşınızı giriniz:")
+school= input("hangi okulda okudunuz ya da hangi okuldan mezunsunuz:")
+job= input("yaptığınız meslek hakkında birkaç bilgi veriniz:") #Birazcık 4. sorudan çaldım :)
+
+Çoklu değişken ataması nasıl yapılır örnek içeren bir program yazınız.
+x=10
+y=15
+z=20
+x=y
+print(x==z)
