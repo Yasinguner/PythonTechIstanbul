@@ -1,0 +1,2 @@
+# PythonTechIstanbul
+ödevler
