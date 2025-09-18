@@ -8,10 +8,27 @@ else:
 
 Kullanıcıdan iki sayı isteyerek büyük olanı ve küçük olanı saırasıyla ekrana yazdıran uygulamayı yazınız.
 
+num1=int(input("İlk sayınızı giriniz:"))
+num2=int(input("İkinci sayınızı giriniz:"))
+liste=list()
+liste.append(num1)
+liste.append(num2)
+print("en büyük ve küçük sayınız sırasıyla:")
+print(sorted(liste))
 
 
 Kullanıcıdan 3 adet sayı isteyerek sayıları büyükten küçüğe sırayla yazdırınız.
 
+x=int(input("ilk sayınızı giriniz:"))
+y=int(input("ikinci sayınızı giriniz:"))
+z=int(input("üçüncü sayınızı giriniz:"))
+liste=list()
+liste.append(x)
+liste.append(y)
+liste.append(z)
+liste.sort()
+liste.reverse()
+print(liste)
 
 
 küşüye ehliyet için gerekli yaş ve eğitim sorularını sararak ehliyet alma durumunu yazdırınız (eğitim için ilkenaz ilköğretim mezunu olması gerekmektedir)
