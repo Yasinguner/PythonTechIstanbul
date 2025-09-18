@@ -64,15 +64,43 @@ bir menü sipariş kontol sistemi yazınız. müşterinin menüsünün doğru ol
 
 Hergün bir farklı bir mahalleye gidecek olan pazarlama elemanının, haftanın hangi gününde hangi mahallede olacak olduğunu söyleyen bir program yazınız.(elifli yapı)
 
-
+eleman=input("Pazarlama elemanı haftanın hangi günü nerede olduğunu öğrenmek istiyorsanız haftanın tekabülü olan günü yazınız:").lower()
+if eleman== "pazartesi":
+    print("Zafer mahallesinde.")
+elif eleman== "salı":
+    print("Maslak mahallesinde.")
+elif eleman== "çarşamba":
+    print("Bayrampaşa mahallesinde.")
+elif eleman== "perşembe":
+    print("Kavşaklar mahallesinde")
+elif eleman== "cuma":
+    print("Cemal Paşa mahellesinde")
+elif eleman=="cumartesi":
+    print("Mustafa Kemal Paşa mahallesinde")
+elif eleman=="pazar":
+    print("Büyük Mustafa Paşa mahallesinde")
+else:
+    print("hatalı tuşlama")
 
 Kullanıcıdan üç adet oratalama isteyerek ders gerçeme durumunu yazdıran programı yazınız.
 
-
+ders1=int(input("İlk ortalamanın puanını giriniz:"))
+ders2=int(input("İkinci ortalamanın puanını giriniz:"))
+ders3=int(input("Üçüncü ortalamanın puanını giriniz:"))
+if 0<=ders1<=100 and 0<=ders2<=100 and 0<=ders3<=100:
+    X=(ders1+ders2+ders3)/3
+    if 100>=(X)>=50:
+        print(f"dersi geçtiniz.Tebrikler.Geçme puanınız:{X} :)")
+    elif 50>(X)>=0:
+        print(f"dersi geçemediniz. Üzgünüz puanınız {X}  :(")
+    else:
+        print("Hatalı tuşlama yaptınız.")
+else:
+    print("Ortalamanızı yanlış tuşladınız")
 
 Yukarıda ki soruya devam drumunu da ekleyerek geçme kalma durumunu belirtiniz.
 
-
+("  Üstte belirtildi :)  ")
 
 Kullanıcı adı ve şifre isteyerek doğru bilgileri girmesi halinde kullanıcıya hoşgeldin mesajı veren uygulamayı yazınız.
 
