@@ -101,7 +101,7 @@ elif 60<=v<=132:
 elif 0<=v<60:
     print("Birazcık bas gaza. :)")
 else:
-    print("Düzgün sayı gir len:)")
+    print("Düzgün sayı giriniz. :)")
 
 
 
