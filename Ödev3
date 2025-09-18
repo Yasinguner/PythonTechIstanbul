@@ -1,0 +1,55 @@
+Kullanıcıya memleketini sorarak hemşeri olup olmadığınızı yazdıran programı yazınız.
+
+şehir=input("Hangi şehirde doğdunuz?:")
+if şehir=="Malatya" or şehir=="malatya" or şehir=="MALATYA":
+    print("Vaaay hemşerim gelmiş hoşgelmiş:)")
+else:
+    print("Hoşgeldiniz.")
+
+Kullanıcıdan iki sayı isteyerek büyük olanı ve küçük olanı saırasıyla ekrana yazdıran uygulamayı yazınız.
+
+
+
+Kullanıcıdan 3 adet sayı isteyerek sayıları büyükten küçüğe sırayla yazdırınız.
+
+
+
+küşüye ehliyet için gerekli yaş ve eğitim sorularını sararak ehliyet alma durumunu yazdırınız (eğitim için ilkenaz ilköğretim mezunu olması gerekmektedir)
+
+
+
+Bir turnava düşünerek gerekli koşulları belirleyiniz. en az iki koşul olmak üzere kullanıcının turnuvaya katılıp katılmayacağı bilginizi veren programı yazınız.
+
+
+
+bir menü sipariş kontol sistemi yazınız. müşterinin menüsünün doğru olup olmadığını kontrol ediniz.(bir yiyecek ve içecek olmalı)
+
+
+
+Hergün bir farklı bir mahalleye gidecek olan pazarlama elemanının, haftanın hangi gününde hangi mahallede olacak olduğunu söyleyen bir program yazınız.(elifli yapı)
+
+
+
+Kullanıcıdan üç adet oratalama isteyerek ders gerçeme durumunu yazdıran programı yazınız.
+
+
+
+Yukarıda ki soruya devam drumunu da ekleyerek geçme kalma durumunu belirtiniz.
+
+
+
+Kullanıcı adı ve şifre isteyerek doğru bilgileri girmesi halinde kullanıcıya hoşgeldin mesajı veren uygulamayı yazınız.
+
+
+
+Kullanıcının geçerli bir mail adresi girip girmediğini denetleyen bir program yazınız. (@ karakterinin varlığını kontrol ediniz)
+
+
+
+Kullanıcıya sevdiği programlama dilini sorarak, o programlama dilini geliştiren kişi(leri)n ismini yazıran programı yazınız. 4 adet yeterli
+
+
+
+Kullanıcıya seçtiği menüye göre fiyat bilgisi veren restoran uygulamasını yazınız.
+
+
