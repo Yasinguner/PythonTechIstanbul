@@ -46,28 +46,71 @@ print(YıllıkFaiz)
 
 
 6.   Kullanıcıdan alacak olduğunuz veriler ile kullanıcının vücud kitle endeksini hesaplayan programı yazınız.
+kilo=float(input("Kilonuzu giriniz:"))
+Boy=float(input("Boyunuzu Metre türünden giriniz:"))
+VKI=kilo/Boy**2
+if 10<=VKI<=18.5:
+    print("Yetersiz beslenmektesiniz. Kendinizi biraz daha sağlıklı beslenmeye ve yemek yemeye adapte etmeniz gerekmektedir.")
+elif 18.5<VKI<25:
+    print("Gayet sağlıklı besleniyorsunuz. Bu beslenmenizi çevrenize de yaymanızı isteriz. :)")
+elif 25<=VKI<30:
+    print("Birazcık yağlı besleniyorsunuz. Size tavsiyem abur cubur vb atıştırmalıkları bırakmanız ve biraz daha yeşillik yemeniz.")
+elif VKI>=30:
+    print("Yağlı besleniyorsunuz. Ya diyetisyen doktorlara başvurun ya da kendinizi daha fazla sebzelik yemeye adapte edin.")
+else:
+    print("Düzgün sayı giriniz :) (Doğruysa beslenmenizi arttırınız.)")
 
 
 
 
 7.   kullanıcının sizinle adaş olup olmadığını yazdıran programı yazınız.
-
+isim=input("İsminizi giriniz:")
+if isim=="Yasin" or isim=="yasin":
+    print("Adaşımmm Hoşgeldin!!!")
+else:
+    print("Hoşgeldiniz.")
 
 
 
 8.   Kullanıcıdan not ortalamasını isteyerek teşekkür, tadir alıp alamama durumunu yazdıran programı yazınız.
-
+Not_ort=float(input("Not ortalamanızı giriniz:"))
+if 70<= Not_ort <85:
+    print("Tebrik ederiz teşekkür aldınız.")
+elif 85<= Not_ort <=100:
+    print("Tebrikler takdiri hakettiniz!!!")
+elif Not_ort >100:
+    print("Düzgün ortalama giriniz :(")
+elif 0> Not_ort:
+    print("Sen de iyice abarttın HA!")
+elif 0<= Not_ort <50:
+    print("Sınıfta kaldınız.")
+else:
+    print("Geçtiniz ama belge alamadınız.")
 
 
 
 9.   Kullanıcıdan otoban uzunluğunu ve geçiş süresini isteyerek hızınız hesaplayınız. daha sonra kullanıcının hız cezası alıp almama durumunu yazdırınız.
-
+X=int(input("Gideceğiniz yolu Metre cinsinden yazınız:"))
+t=float(input("Kaç saatte gittiğinizi yazınız:"))
+x=X/1000
+v=x/t
+if v>132:
+    print("Cezanız Geliyoooor.")
+elif 60<=v<=132:
+    print("Trafik kurallarına uyduğunuz için teşekkür ederiz.")
+elif 0<=v<60:
+    print("Birazcık bas gaza. :)")
+else:
+    print("Düzgün sayı gir len:)")
 
 
 
 
 10.  Yevmiyesi 350 TL olan bir işçinin çalışma gün sayısını öğrenerek, yevmiye tutarıı hesaplayan programı yazınız.
-
+yevmiye=int(input("Günlük kazancınızı TL cinsinden giriniz:"))
+gün=int(input("Kaç gün çalıştınız:"))
+X=yevmiye*gün
+print(f"Toplam kazancınız {X} TL'dir")
 
 
 
