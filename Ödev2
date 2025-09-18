@@ -64,12 +64,12 @@ else:
 
 
 7.   kullanıcının sizinle adaş olup olmadığını yazdıran programı yazınız.
+
 isim=input("İsminizi giriniz:")
-if isim=="Yasin" or isim=="yasin":
+if isim=="Yasin" or isim=="yasin" or "YASİN" or "YASIN":
     print("Adaşımmm Hoşgeldin!!!")
 else:
     print("Hoşgeldiniz.")
-
 
 
 8.   Kullanıcıdan not ortalamasını isteyerek teşekkür, tadir alıp alamama durumunu yazdıran programı yazınız.
