@@ -31,13 +31,32 @@ liste.reverse()
 print(liste)
 
 
-küşüye ehliyet için gerekli yaş ve eğitim sorularını sararak ehliyet alma durumunu yazdırınız (eğitim için ilkenaz ilköğretim mezunu olması gerekmektedir)
+küşüye ehliyet için gerekli yaş ve eğitim sorularını sorarak ehliyet alma durumunu yazdırınız (eğitim için en az ilköğretim mezunu olması gerekmektedir)
 
+Yaş=int(input("Yaşınızı giriniz:"))
+EğitimYılı=int(input("Eğitim aldığınız yıl sayısını(Anaokul dahildir.) giriniz:"))
+if 81>=Yaş>=18 and EğitimYılı>=5:
+    print("Ehliyetinizi çok rahat bir şekilde yenileyebilir ve kullanabilirsiniz.")
+elif Yaş<18 and EğitimYılı<5:
+    print("Hem yaşın yetersiz hem de ilköğretim mezunu değilsin.")
+elif EğitimYılı<5:
+    print("Maalesef ki ilköğretim mezunu değilsiniz.")
+elif Yaş<18 :
+    print("Yaşınız yetersiz. Bir süre sabredin.")
 
 
 Bir turnava düşünerek gerekli koşulları belirleyiniz. en az iki koşul olmak üzere kullanıcının turnuvaya katılıp katılmayacağı bilginizi veren programı yazınız.
 
-
+Mucit=input("Hayatınızda hiç icat ettiğiniz malzeme veya materyal var mıdır?(Evet/Hayır):")
+Eğitim=int(input('Okuduğunuz üniversitede kaçıncı yıldasınız.'))
+if Mucit ==("Evet" or "evet") and 5>=Eğitim>=3:
+    print("Katılmaya hak kazandınız!!!!")
+elif Mucit=="Hayır" or "hayır":
+    print("Katılmaya hak kazanamadınız.")
+elif Eğitim<3 or Eğitim>5:
+    print("Katılmaya hak kazanamadınız.")
+else:
+    print("Katılmak için gerekli koşulları sağlayınız.")
 
 bir menü sipariş kontol sistemi yazınız. müşterinin menüsünün doğru olup olmadığını kontrol ediniz.(bir yiyecek ve içecek olmalı)
 
