@@ -104,15 +104,37 @@ Yukarıda ki soruya devam drumunu da ekleyerek geçme kalma durumunu belirtiniz.
 
 Kullanıcı adı ve şifre isteyerek doğru bilgileri girmesi halinde kullanıcıya hoşgeldin mesajı veren uygulamayı yazınız.
 
+Kişinin_kullanıcı_Adı= "SinanBey2609"
+Kişinin_Şifresi= "Sinan..1881"
 
+kullanıcı_adı=input("Kullanıcı adı:")
+Şifre=input("Şifre:")
+if kullanıcı_adı == Kişinin_kullanıcı_Adı and Şifre== Kişinin_Şifresi:
+    print("Hoşgeldiniz Efendim.")
+else:
+    print("Kullanıcı adınız veya şifreniz yanlış.")
 
 Kullanıcının geçerli bir mail adresi girip girmediğini denetleyen bir program yazınız. (@ karakterinin varlığını kontrol ediniz)
 
-
+Mail=input("mailinizi giriniz")
+if "@" in Mail:
+    print("Mail geçerlidir.")
+else:
+    print("Mail geçerli değildir.")
 
 Kullanıcıya sevdiği programlama dilini sorarak, o programlama dilini geliştiren kişi(leri)n ismini yazıran programı yazınız. 4 adet yeterli
 
-
+Dil=input("Sevdiğiniz programlama dilinin kurucusunu öğrenmek için giriniz:").lower()
+if Dil == "python":
+    print("Guido van Rossum python kurucusudur.")
+elif Dil == "c":
+    print("Dennis Ritchie 'C' dilinin kurucusudur.")
+elif Dil == "c#":
+    print("Anders Hejlsberg , Scott Wiltamuth ve Peter Golde C# dilinin kurucusudur.")
+elif Dil == "java":
+    print("James Gosling Java dilinin kurucusudur.")
+else:
+    print("Yazdığınız dil ya kurulmamıştır ya da kurulmuş ve eklememişizdir.")
 
 Kullanıcıya seçtiği menüye göre fiyat bilgisi veren restoran uygulamasını yazınız.
 
